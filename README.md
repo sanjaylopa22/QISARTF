@@ -22,9 +22,6 @@ Add the model file to the folder ./models. You can follow the ./models/Transform
 Include the newly added model in the Exp_Basic.model_dict of ./exp/exp_basic.py.
 Create the corresponding scripts under the folder ./scripts.
 
-# Citation
-Chakraborty, S., & Heintz, F. (2025). Integrating Quantum-Classical Attention in Patch Transformers for Enhanced Time Series Forecasting. arXiv preprint arXiv:2504.00068.
-
 # Contact
 If you have any questions or suggestions, feel free to contact our maintenance team:
 
