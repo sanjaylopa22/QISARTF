@@ -7,7 +7,17 @@ We provide a neat code base to evaluate advanced deep time series models or deve
 Usage
 Install Python 3.8. For convenience, execute the following command.
 pip install -r requirements.txt
-Prepare Data. You can obtain the well pre-processed datasets from [Google Drive].
+Prepare Data.
+
+The following libraries are used as a core in this framework.
+
+Time-Series-Library (TSlib)
+TSlib is an open-source library for deep learning researchers, especially deep time series analysis.
+
+## Datasets
+
+The datasets are available at this [Google Drive](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2?usp=sharing) in the long-term-forecast folder. Download and keep them in the `dataset` folder here. 
+
 Train and evaluate model. We provide the experiment scripts for all benchmarks under the folder ./scripts/. You can reproduce the experiment results as the following examples:
 # long-term forecast
 bash ./scripts/long_term_forecast/Exchange_script/QISARTF.sh
