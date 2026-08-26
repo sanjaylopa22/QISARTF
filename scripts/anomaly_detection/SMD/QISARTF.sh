@@ -7,7 +7,7 @@ python -u run.py \
   --is_training 1 \
   --root_path ./dataset/SMD \
   --model_id SMD \
-  --model $model_name$ \
+  --model $model_name \
   --data SMD \
   --features M \
   --seq_len 100 \
