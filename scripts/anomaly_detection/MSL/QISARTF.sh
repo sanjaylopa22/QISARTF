@@ -7,7 +7,7 @@ python -u run.py \
   --is_training 1 \
   --root_path ./dataset/MSL \
   --model_id MSL \
-  --model $model_name$ \
+  --model $model_name \
   --data MSL \
   --features M \
   --seq_len 100 \
