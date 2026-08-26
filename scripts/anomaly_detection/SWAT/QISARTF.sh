@@ -7,7 +7,7 @@ python -u run.py \
   --is_training 1 \
   --root_path ./dataset/SWaT \
   --model_id SWAT \
-  --model $model_name$ \
+  --model $model_name \
   --data SWAT \
   --features M \
   --seq_len 100 \
