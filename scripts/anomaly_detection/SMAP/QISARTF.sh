@@ -7,7 +7,7 @@ python -u run.py \
   --is_training 1 \
   --root_path ./dataset/SMAP \
   --model_id SMAP \
-  --model $model_name$ \
+  --model $model_name\
   --data SMAP \
   --features M \
   --seq_len 100 \
