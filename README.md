@@ -22,7 +22,8 @@ Train and evaluate model. We provide the experiment scripts for all benchmarks u
 # long-term forecast
 bash ./scripts/long_term_forecast/Exchange_script/QISARTF.sh
 # short-term forecast
-bash ./scripts/short_term_forecast/QISARTF.sh
+bash ./scripts/short_term_forecast/M4/QISARTF_M4.sh
+bash ./scripts/short_term_forecast/PEMS/QISARTF_PEMS.sh
 # anomaly detection
 bash ./scripts/anomaly_detection/PSM/QISARTF.sh
 # classification
