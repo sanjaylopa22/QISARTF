@@ -34,6 +34,14 @@ Add the model file to the folder ./models. You can follow the ./models/Transform
 Include the newly added model in the Exp_Basic.model_dict of ./exp/exp_basic.py.
 Create the corresponding scripts under the folder ./scripts.
 
+reproducibility/
+├── model/               QISARTF.py, SelfAttention_Family.py, Embed.py, Transformer_EncDec.py, run.py
+├── shell_scripts/       all QISARTF_*.sh training/eval scripts
+├── verification/        count_params.py, gather_full_data.py, make_figures_v2.py
+├── scaling_analysis/    scale_dmodel.py, scale_tokens.py, make_scaling_figures.py
+├── quantum_circuit/     the n_q scaling benchmark, pennylane_qisa.py
+└── README.md
+
 # Contact
 If you have any questions or suggestions, feel free to contact our maintenance team:
 
